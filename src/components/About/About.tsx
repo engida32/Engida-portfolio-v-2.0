@@ -6,8 +6,10 @@ import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
+import tailwind from "../../assets/tailwind.png";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
+import flutter from "../../assets/flutter-svgrepo-com.svg";
+import dart from "../../assets/dart-svgrepo-com.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -19,21 +21,33 @@ export function About() {
           <h2>About me</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
-          <p>My name is Engida Lishan, I am a software Engineer with a great passion for programming.I am passionate about delivering solutions that aggregate into people's lives and at the same time challenge me.I improved my skills as a developer Front-End e Back-End</p>
+          <p>My name is Engida Lishan, and I'm a software engineer with a passion for programming. I'm driven by a desire to provide solutions and make a positive influence in people's lives while also engaging myself. As a programmer, I was able to broaden my skills as Mobile app developer  and Front-End web design</p>
+
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+
+          <p> Develop crossplatform  Mobile App using    Flutter which is used to build  cross platform applications for Android, iOS, Linux, Mac, Windows and the web from a single codebase   .</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
 
-          <p>Develop websites and applications using HTML, CSS, and JavaScript.I have familiarity in developing layouts that supply me.I am always improving every project that put in my hands.</p>
+          <p>Develop frontend web application using one the most popular JavaScript library  reactJs  with different CSS styling frameworks and library
+            such as Tailwind CSS,styled-components also pure CSS  .</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
 
-          <p>I am a dedicated person who runs behind to realize his dreams, worker and results oriented, I always seek to reach my best version.</p>
+          <p>I am a dedicated individual that goes above and beyond to achieve my goals and a results-oriented individual..</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+              <img src={flutter} alt="Vue" />
+            </ScrollAnimation>
+          </div>
 
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
@@ -41,15 +55,21 @@ export function About() {
             </ScrollAnimation>
           </div>
 
+
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-              <img src={vueIcon} alt="Vue" />
+              <img src={dart} alt="Vue" />
             </ScrollAnimation>
           </div>
 
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}>
+              <img src={tailwind} alt="JavaScript" />
             </ScrollAnimation>
           </div>
 

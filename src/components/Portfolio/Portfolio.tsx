@@ -4,62 +4,145 @@ import externalLinkIcon from "../../assets/external-link-icon.svg"
 import ScrollAnimation from "react-animate-on-scroll";
 
 
-export function Portfolio(){
-  return(
+export function Portfolio() {
+  return (
     <Container id="portfolio">
       <h2>My portfolio</h2>
 
       <div className="projects">
 
-      <ScrollAnimation animateIn="flipInX">
-        <div className="project">
-          <header>
-          <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-          <div className="project-links">
-            <a href="https://github.com/joaotuliojt/fc-squad43" target="_blank" rel="noreferrer">
-              <img src={githubIcon} alt="GitHub" />
-            </a>
-          </div>
-          </header>
-          <div className="body">
-            <h3>FCALLENDAR.</h3>
-            <p>A web application carried out during the Hackathon of the<a href="https://www.fcamara.com.br/"> fCamera</a>.This application serves to help around the remote work for the face-to-face.
-            </p>
-          </div>
-          <footer>
-            <ul className="tech-list">
-              <li>Node</li>
-              <li>Express</li>
-              <li>MySql</li>
-              <li>Ejs</li>
-            </ul>
-          </footer>
-        </div>
-      </ScrollAnimation>
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-            <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-            <div className="project-links">
-              <a href="https://github.com/joaotuliojt/github-search" target="_blank" rel="noreferrer">
-                <img src={githubIcon} alt="GitHub" />
-              </a>
-              <a href="https://github-search-blond.vercel.app/" target="_blank" rel="noreferrer">
-                <img src={externalLinkIcon} alt="Visitar site" />
-              </a>
-            </div>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://github.com/engida32/MovieApp.git" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="GitHub" />
+                </a>
+              </div>
             </header>
             <div className="body">
-              <h3>Github Searcher</h3>
-              <p>A more pleasant version to see your GitHub profile, includes data visualization, repositories, sharing among others.
+              <h3>Movie Trailer  App.</h3>
+              <p>movie  app built with flutter and bloc state management which can be used on different platforms such as(Android, iOS and web). using the themoviedb api
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Json api</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://github.com/engida32/NewsApp.git" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="GitHub" />
+                </a>
+
+              </div>
+            </header>
+            <div className="body">
+              <h3>NEWS APP</h3>
+              <p>
+                Fully Functional  News mobile app to Locate popular articles and breaking news headlines from news diifferent sources and blogs across the web with  JSON API using the JSON API from <br></br> https://newsapi.org
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Json api</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+               
+                <a href="https://joaotuliojt.github.io/dv-musica-library-page/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visitar site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>UI for Music Library ( Spottify ) </h3>
+              <p>An interface for a library of songs, similar to Spotify with crossplatform support on  both (Android,ios, desktop(ubunut and window)).
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>Provider</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+              <a href="https://github.com/engida32/React-intro-typescript.git" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visitar site" />
+                </a>
+                <a href="https://github.com/engida32/React-intro-typescript" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visitar site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Pet Adoption site </h3>
+              <p>Pet adoption site made with react and typescript while learning frontend devlopement with <a href="https://frontendmasters.com/courses/complete-react-v6/">frontendmasters.</a>
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>reactjs</li>
+                <li>Css</li>
+                <li>typescript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://github.com/engida32/Engida-portfolio2.git" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visitar site" />
+                </a>
+
+                <a href="https://engida-lishan.vercel.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visitar site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>My  Portfolio Page </h3>
+              <p>MY portfolio site built using reactjs,nextjs,typescript and styled-component.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>ReactJs</li>
+                <li>JavaScript</li>
+                <li>styled-components</li>
                 <li>Typescript</li>
-                <li>Styled Components</li>
+
               </ul>
             </footer>
           </div>
@@ -68,103 +151,32 @@ export function Portfolio(){
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-            <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-            <div className="project-links">
-              <a href="https://joaotuliojt.github.io/sunnyside-agency/" target="_blank" rel="noreferrer">
-                <img src={externalLinkIcon} alt="Visitar site" />
-              </a>
-            </div>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://github.com/engida32/Tesla-2.0.git" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visitar site" />
+                </a>
+                <a href="https://tesla-2-0.vercel.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLinkIcon} alt="Visitar site" />
+                </a>
+              </div>
             </header>
             <div className="body">
-              <h3>sunnysideAgency</h3>
-              <p>A Landing Page of a fictitious company proposed by the<a href="https://www.frontendmentor.io/">Frontend Mentor.</a>
+              <h3>Tesla website UI  </h3>
+              <p> Tesla website clone using Reactjs, styled-component and redux.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>JavaScript</li>
+                <li>Reactjs</li>
+                <li>styled-component</li>
+                <li>Redux Toolkit</li>
+
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-            <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-            <div className="project-links">
-              <a href="https://joaotulio.vercel.app/" target="_blank" rel="noreferrer">
-                <img src={externalLinkIcon} alt="Visitar site" />
-              </a>
-            </div>
-            </header>
-            <div className="body">
-              <h3>Portfolio V1</h3>
-              <p>An alternative version of my portfolio, using VueJs.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>VueJs</li>
-                <li>JavaScript</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-            <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-            <div className="project-links">
-              <a href="https://github.com/joaotuliojt/dtmoney-trilha-reactjs" target="_blank" rel="noreferrer">
-                <img src={githubIcon} alt="Visitar site" />
-              </a>
-            </div>
-            </header>
-            <div className="body">
-              <h3>Dtmoney</h3>
-              <p>A finance manager to analyze your earnings, spent and have a greater control of your finances.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>VueJs</li>
-                <li>JavaScript</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-            <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-            <div className="project-links">
-              <a href="https://github.com/joaotuliojt/dv-musica-library-page" target="_blank" rel="noreferrer">
-                <img src={githubIcon} alt="Visitar site" />
-              </a>
-              <a href="https://joaotuliojt.github.io/dv-musica-library-page/" target="_blank" rel="noreferrer">
-                <img src={externalLinkIcon} alt="Visitar site" />
-              </a>
-            </div>
-            </header>
-            <div className="body">
-              <h3>Music Library</h3>
-              <p>An interface for a library of songs, similar to Spotify.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                <li>JavaSript</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
 
 
 
