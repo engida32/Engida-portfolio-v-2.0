@@ -14,10 +14,10 @@ export function Hero() {
           <h1>Engida Lishan</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Full Stack Developer</h3>
+          <h3>Mobile App Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">I am a computer technician with a focus on web development with JavaScript.</p>
+          <p className="small-resume">I am a Software developer with a focus on Mobile App developer and frontend web development.</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>

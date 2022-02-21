@@ -7,7 +7,7 @@ export const Container = styled.header`
   align-items: center;
   padding: 1.8rem 10rem;
   
-  background-color: #21212150;
+  background-color: #21212150  ;
   
   backdrop-filter: blur(6px);
 
