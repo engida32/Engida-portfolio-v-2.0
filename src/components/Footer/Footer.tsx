@@ -13,8 +13,7 @@ export function Footer() {
         <span>Engida</span>
       </a>
       <div>
-        <p>This site was made with <img src={reactIcon} alt="React" /> is very
-          <span>❤️</span>
+        <p>This site was made with <img src={reactIcon} alt="React" />
         </p>
       </div>
 
@@ -36,7 +35,7 @@ export function Footer() {
         </a>
 
         <a
-          href="https://www.instagram.com/engida/"
+          href="https://www.instagram.com/engida_lg/"
           target="_blank"
           rel="noreferrer"
         >
