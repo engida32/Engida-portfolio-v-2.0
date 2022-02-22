@@ -7,11 +7,7 @@ export const Container = styled.header`
   align-items: center;
   padding: 1.8rem 10rem;
   
-<<<<<<< HEAD
   background-color: #21212150  ;
-=======
-  background-color: #1C1220  ;
->>>>>>> 0443124d44e1a81a8aac1536d5fccfb2effd5235
   
   backdrop-filter: blur(6px);
 

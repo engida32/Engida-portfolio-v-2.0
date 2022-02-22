@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import validator from 'validator'
 
 export function Form() {
-  const [state, handleSubmit] = useForm('myyozglw')
+  const [state, handleSubmit] = useForm('mlezbvez')
 
   const [validEmail, setValidEmail] = useState(false)
   const [isHuman, setIsHuman] = useState(false)
@@ -50,7 +50,7 @@ export function Form() {
       <h2>Contact me from the form below</h2>
       <form onSubmit={handleSubmit}>
         <input
-          placeholder="Email"
+          placeholder="Enter Your Email"
           id="email"
           type="email"
           name="email"
