@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     --green: #23ce6b;
     --blue: #016fb9;
     scroll-padding-top: 10rem;
+    
 
     &.light{
 
@@ -21,6 +22,10 @@ export const GlobalStyle = createGlobalStyle`
 
       .logo{
         color: var(--black);
+      }
+      
+      .project{
+        background-color: #0E5774;
       }
 
       header.header-fixed{
@@ -55,6 +60,7 @@ export const GlobalStyle = createGlobalStyle`
           }
         }
       }
+
 
     }
   }
