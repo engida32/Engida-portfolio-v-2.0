@@ -1,19 +1,19 @@
-import { Container } from './styles'
-import { BrowserRouter as Router } from 'react-router-dom'
-import { NavHashLink, HashLink } from 'react-router-hash-link'
-import { useState } from 'react'
+import { Container } from "./styles";
+import { BrowserRouter as Router } from "react-router-dom";
+import { NavHashLink, HashLink } from "react-router-hash-link";
+import { useState } from "react";
 
-import CurriculumV from '../../assets/EngidaLishanResume frontend.pdf'
+import Cv from "../../assets/Engida frontend  cv.pdf";
 export function Header() {
-  const [isActive, setActive] = useState(false)
+  const [isActive, setActive] = useState(false);
 
   function toggleTheme() {
-    let html = document.getElementsByTagName('html')[0]
-    html.classList.toggle('light')
+    let html = document.getElementsByTagName("html")[0];
+    html.classList.toggle("light");
   }
 
   function closeMenu() {
-    setActive(false)
+    setActive(false);
   }
 
   return (
@@ -32,33 +32,34 @@ export function Header() {
         />
         <label htmlFor="switch">Toggle</label>
 
-        <nav className={isActive ? 'active' : ''}>
+        <nav className={isActive ? "active" : ""}>
           <NavHashLink smooth to="#home" onClick={closeMenu}>
             Home
           </NavHashLink>
           <NavHashLink smooth to="#about" onClick={closeMenu}>
-            About me          </NavHashLink>
+            About me{" "}
+          </NavHashLink>
           <NavHashLink smooth to="#portfolio" onClick={closeMenu}>
             Portfolio
           </NavHashLink>
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={CurriculumV} download className="button">
+          <a href={Cv} download className="button">
             CV
           </a>
         </nav>
 
         <div
-          aria-expanded={isActive ? 'true' : 'false'}
+          aria-expanded={isActive ? "true" : "false"}
           aria-haspopup="true"
-          aria-label={isActive ? 'Fechar menu' : 'Abrir menu'}
-          className={isActive ? 'menu active' : 'menu'}
+          aria-label={isActive ? "Active menu" : "inActive menu"}
+          className={isActive ? "menu active" : "menu"}
           onClick={() => {
-            setActive(!isActive)
+            setActive(!isActive);
           }}
         ></div>
       </Router>
     </Container>
-  )
+  );
 }

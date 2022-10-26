@@ -3,7 +3,11 @@
   "version": "0.2.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "@formspree/react": "^2.2.4",
+    "@mui/lab": "^5.0.0-alpha.64",
+    "@mui/material": "^5.10.11",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -41,7 +45,7 @@
     "production": [
       ">0.2%",
       "not dead"
-     ],
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

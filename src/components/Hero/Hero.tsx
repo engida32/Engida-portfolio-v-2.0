@@ -1,8 +1,8 @@
-import { BrowserRouter } from "react-router-dom"
-import { Container } from "./styles"
-import ScrollAnimation from "react-animate-on-scroll"
-import Illustration from "../../assets/illustration.svg"
-import { NavHashLink } from "react-router-hash-link"
+import { BrowserRouter } from "react-router-dom";
+import { Container } from "./styles";
+import ScrollAnimation from "react-animate-on-scroll";
+import Illustration from "../../assets/illustration.svg";
+import { NavHashLink } from "react-router-hash-link";
 export function Hero() {
   return (
     <Container id="home">
@@ -14,15 +14,19 @@ export function Hero() {
           <h1>Engida Lishan</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Mobile App  and React Dev </h3>
+          <h3>Frontend Developer </h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">I am a Software developer with a focus on Mobile App developer and frontend web development.</p>
+          <p className="small-resume">
+            I am a Software developer with a focus on Frontend web development.
+          </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
-            <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
+            <NavHashLink smooth to="#contact" className="button">
+              Contact
+            </NavHashLink>
           </BrowserRouter>
         </ScrollAnimation>
       </div>
@@ -32,5 +36,5 @@ export function Hero() {
         </ScrollAnimation>
       </div>
     </Container>
-  )
+  );
 }
