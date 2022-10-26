@@ -161,13 +161,20 @@ export function About() {
               }
               position="alternate"
             >
-              <TimelineItem>
+              <TimelineItem
+                sx={{
+                  // border: "1px solid red",
+                  // alignItems: "center",
+                  my: 1,
+                }}
+              >
                 <TimelineOppositeContent>
                   <Typography
                     sx={{
-                      color: "blue",
-                      fontWeight: "bold",
+                      color: "#23ce6b",
+                      fontWeight: "bolder",
                       px: 3,
+                      textDecoration: "underline",
                     }}
                     variant="h4"
                     color="initial"
@@ -176,17 +183,37 @@ export function About() {
                   </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineDot />
-                  <TimelineConnector />
+                  <TimelineDot
+                    sx={{
+                      backgroundColor: "#23ce6b",
+                      margin: "auto 0",
+                    }}
+                  />
+                  <TimelineConnector
+                    sx={{
+                      bgColor: "yellow",
+                      height: 8,
+                    }}
+                  />
                 </TimelineSeparator>
                 <TimelineContent>
-                  <Box>
+                  <Box
+                    sx={{
+                      color: "#23ce6b",
+                    }}
+                  >
                     <Typography>Frontend Developer</Typography>
                     <Typography>March 2022 - Now </Typography>
                   </Box>
                 </TimelineContent>
               </TimelineItem>
-              <TimelineItem>
+              <TimelineItem
+                sx={{
+                  // border: "1px solid red",
+                  // alignItems: "center",
+                  my: 1,
+                }}
+              >
                 <TimelineOppositeContent>
                   <Typography
                     sx={{
@@ -210,7 +237,11 @@ export function About() {
                   </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineDot />
+                  <TimelineDot
+                    sx={{
+                      margin: "auto 0",
+                    }}
+                  />
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
@@ -240,7 +271,11 @@ export function About() {
                   </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineDot />
+                  <TimelineDot
+                    sx={{
+                      margin: "auto 0",
+                    }}
+                  />
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
@@ -252,20 +287,18 @@ export function About() {
                   </Box>
                 </TimelineContent>
               </TimelineItem>
-              {/* <TimelineItem>
-              <TimelineOppositeContent color="text.secondary">
-                9:00 am
-              </TimelineOppositeContent>
-              <TimelineSeparator>
-                <TimelineDot
-                  sx={{
-                    color: "green",
-                  }}
-                />
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>Repeat</TimelineContent>
-            </TimelineItem> */}
+              <TimelineItem>
+                <TimelineOppositeContent></TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot
+                    sx={{
+                      color: "green",
+                    }}
+                  />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent></TimelineContent>
+              </TimelineItem>
             </Timeline>
           </Box>
         </ScrollAnimation>
