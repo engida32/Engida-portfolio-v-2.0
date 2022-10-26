@@ -1,10 +1,10 @@
-import { Container } from './styles'
+import { Container } from "./styles";
 
-import reactIcon from '../../assets/react-icon.svg'
-import linkedinIcon from '../../assets/linkedin.png'
-import githubIcon from '../../assets/github.png'
-import instagramIcon from '../../assets/instagram.png'
-import discordIcon from '../../assets/discord.png'
+import reactIcon from "../../assets/react-icon.svg";
+import linkedinIcon from "../../assets/linkedin.png";
+import githubIcon from "../../assets/github.png";
+import instagramIcon from "../../assets/instagram.png";
+import twitter from "../../assets/twitter-seeklogo.com.svg";
 
 export function Footer() {
   return (
@@ -13,7 +13,8 @@ export function Footer() {
         <span>Engida</span>
       </a>
       <div>
-        <p>This site was made with <img src={reactIcon} alt="React" />
+        <p>
+          This site was made with <img src={reactIcon} alt="React" />
         </p>
       </div>
 
@@ -25,31 +26,24 @@ export function Footer() {
         >
           <img src={linkedinIcon} alt="Linkedin" />
         </a>
-
-        <a
-          href="https://github.com/engida32"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://github.com/engida32" target="_blank" rel="noreferrer">
           <img src={githubIcon} alt="GitHub" />
         </a>
-
         <a
           href="https://www.instagram.com/engida_lg/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
-        </a>
-
+        </a>{" "}
         <a
-          href="https://discord.com/users/engida"
+          href="https://twitter.com/engida_lish"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={discordIcon} alt="Discord" />
+          <img src={twitter} alt="Instagram" />
         </a>
       </div>
     </Container>
-  )
+  );
 }
