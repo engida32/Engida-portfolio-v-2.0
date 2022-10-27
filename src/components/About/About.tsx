@@ -36,7 +36,7 @@ export function About() {
             for coding. I'm driven by a desire to provide solutions and make a
             positive influence in people's lives while also engaging myself. As
             a programmer, I was able to broaden my skills as Frontend developer,
-            mobile app developer as well as UI/UX design
+            mobile app developer as well as UI/UX design enthusiastic.
           </p>
         </ScrollAnimation>
 
